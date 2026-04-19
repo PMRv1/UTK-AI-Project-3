@@ -1,1 +1,2 @@
 # AI101-Assignment4
+# This project uses a Hugging Face Inference API with the Qwen (Qwen2.5-72B-Instruct) model to analyze financial CSV datasets through prompt engineering. The model is used to generate insights, perform stock price predictions, and compare predicted values with actual values directly from the data without traditional model training. The outputs are then cleaned, converted into structured pandas DataFrames, and visualized to compare actual vs predicted stock prices across different companies. All steps and lines of code are commented and documented.
