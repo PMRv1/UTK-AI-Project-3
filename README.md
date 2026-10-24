@@ -1,2 +1,10 @@
 # AI-Driven Data Analysis with Prompt Engineering
-This project uses the Hugging Face Inference API with the Qwen (Qwen2.5-72B-Instruct) large language model to perform financial data analysis through prompt engineering rather than traditional machine learning training. Financial datasets in CSV format are loaded from Google Drive and passed directly into carefully structured prompts, allowing the model to generate insights, identify patterns, and produce stock price predictions based on the relationships between variables in the data. The model’s responses are then processed and cleaned to extract only valid CSV-formatted output, which is converted into structured pandas DataFrames for further analysis. These results are used to compare actual versus predicted stock prices across different companies, and visualizations are generated using matplotlib to highlight differences and performance trends. All steps in the workflow, including data loading, prompt design, output parsing, and visualization, are fully commented and documented to clearly explain the purpose and function of each part of the code. All lines of code are labeled and documented neatly.
+⦾ Explores foundational multi-agent artificial intelligence workflows using the CrewAI framework to process complex datasets.
+
+⦾ Deploys a data analyst and a stock predictor in Project 4 to evaluate finance_data.csv and forecast stock prices based on historical trends.
+
+⦾ Utilizes a baseball data analyst and a sports insight synthesizer in Project 4a to extract performance metrics from Hitters.csv to formulate actionable salary predictions and team strategies.
+
+⦾ Resolves context window limitations by modifying a custom reading tool to feed the agents a condensed Pandas statistical summary rather than the entire raw CSV file.
+
+⦾ Overcomes free-tier execution timeouts and formatting errors by transitioning from a hierarchical Gemini manager to a sequential process powered by the Hugging Face Qwen2.5-7B-Instruct model to smoothly generate the final analytical reports.
